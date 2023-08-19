@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/static/css/empView_stylesheet.css">
+
+</head>
+
+
+<body>
+ 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  </div>
+ <!-- generate table from csv -->
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for values.." title="Type in a name">
+<table id="demoTable"></table>
+
+<script type="text/javascript" src="/static/js/parseCSVtoTable.js"></script>
+
+<!-- <script type="module" src="/Users/marcinsobianowski/Documents/Documents_Marcin/korki/test-parseJSON2CSV.js/"></script> -->
+
+<br>
+<button class="button1" onclick="myFunction">Green</button>
+<br>
+<button class="button1" onclick="">Blue</button>
+</body>
+</html>
